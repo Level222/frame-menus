@@ -4,7 +4,8 @@
     "build": "./build.js",
     "watch": "./build.js --watch",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.18.0",
