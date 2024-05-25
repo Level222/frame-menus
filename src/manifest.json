@@ -10,12 +10,10 @@
     "128": "icons/icon-128.png"
   },
   "permissions": [
+    "clipboardWrite",
     "contextMenus",
-    "scripting",
-    "downloads"
-  ],
-  "host_permissions": [
-    "<all_urls>"
+    "downloads",
+    "offscreen"
   ],
   "background": {
     "service_worker": "background.js"

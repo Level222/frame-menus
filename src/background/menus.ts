@@ -74,9 +74,9 @@ const menus: Menu[] = [
       title: 'Copy Frame Address',
       contexts: [chrome.contextMenus.ContextType.FRAME],
     },
-    onClick: ({ frameUrl }, tab) => {
-      if (frameUrl && tab?.id) {
-        copyText(frameUrl, tab.id);
+    onClick: ({ frameUrl }) => {
+      if (frameUrl) {
+        copyText(frameUrl);
       }
     },
   },

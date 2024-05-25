@@ -8,11 +8,14 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.18.0",
+    "@craftamap/esbuild-plugin-html": "^0.7.0",
     "@types/chrome": "^0.0.268",
     "@types/node": "^20.12.11",
     "esbuild": "^0.21.2",
-    "esbuild-plugin-copy-watch": "^2.1.0",
+    "esbuild-plugin-clean": "^1.0.1",
+    "esbuild-plugin-html-minifier-terser": "^1.0.0",
     "eslint": "^8.57.0",
+    "html-minifier-terser": "^7.2.0",
     "typescript": "^5.4.5"
   }
 }
